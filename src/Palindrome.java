@@ -10,7 +10,6 @@ public class Palindrome {
 		str = sc.next();
 		
 		int i=str.length()-1;
-		
 		do{
 			
 			strrev= strrev + str.charAt(i);
@@ -21,7 +20,7 @@ public class Palindrome {
 		if(strrev.equalsIgnoreCase(str)) {
 			System.out.println("Palindrome!");
 		}
-		else
+		else 
 		{
 			System.out.println("Not a Palindrome");
 		}
