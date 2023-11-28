@@ -19,12 +19,9 @@ public class Palindrome {
 		
 		if(strrev.equalsIgnoreCase(str)) {
 			System.out.println("Palindrome!");
-		}
-		else 
-		{
+		}else {
 			System.out.println("Not a Palindrome");
 		}
-
 	}
 
 }
