@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Palindrome {
-
 	public static void main(String[] args) {
 		String str;
 		String strrev ="";
@@ -10,8 +9,7 @@ public class Palindrome {
 		str = sc.next();
 		
 		int i=str.length()-1;
-		do{
-			
+		do{			
 			strrev= strrev + str.charAt(i);
 			i--;
 		}
